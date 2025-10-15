@@ -96,6 +96,16 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-verdana; /* Aplica a fonte Verdana */
   }
+}
+
+/* Gradiente personalizado para destaque */
+.bg-gradient-fastdeal {
+  background: linear-gradient(90deg, #9333EA 0%, #2563EB 100%);
+}
+
+/* Gradiente personalizado para o fundo */
+.bg-gradient-fastdeal-bg {
+  background: linear-gradient(to top left, rgba(250,245,255,1), rgba(238,242,255,1));
 }

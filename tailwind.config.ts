@@ -18,6 +18,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        verdana: ['Verdana', 'sans-serif'], // Adiciona a fonte Verdana
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
