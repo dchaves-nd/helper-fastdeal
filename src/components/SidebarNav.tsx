@@ -48,7 +48,7 @@ const SidebarNav: React.FC<SidebarNavProps> = ({ activeSection }) => {
             className={cn(
               "flex items-center px-3 py-2 rounded-md text-sm font-medium transition-colors",
               activeSection === item.id
-                ? "bg-purple-100 text-purple-800 border-l-4 border-purple-500" // Destaque mais suave
+                ? "bg-purple-100 text-purple-800 border-l-4 border-purple-500"
                 : "text-gray-600 hover:bg-gray-100 hover:text-gray-900"
             )}
           >
@@ -69,7 +69,7 @@ const SidebarNav: React.FC<SidebarNavProps> = ({ activeSection }) => {
                   className={cn(
                     "flex items-center px-3 py-2 rounded-md text-sm transition-colors",
                     activeSection === subItem.id
-                      ? "bg-blue-50 text-blue-700 border-l-4 border-blue-400" // Destaque para sub-item
+                      ? "bg-purple-100 text-purple-800 border-l-4 border-purple-500" // Alterado para o estilo roxo
                       : "text-gray-500 hover:bg-gray-50 hover:text-gray-700"
                   )}
                 >
