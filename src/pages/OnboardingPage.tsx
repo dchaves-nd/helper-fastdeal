@@ -179,8 +179,8 @@ const OnboardingPage = () => {
             <div className="p-6 bg-blue-50 border border-blue-200 rounded-lg text-blue-800">
               <h4 className="text-xl font-semibold mb-2">Entre em contato</h4>
               <p className="mb-2">Envie um e-mail para nossa equipe de suporte:</p>
-              <a href="mailto:suporte@fastdeal.com.br" className="text-blue-600 hover:underline font-medium">
-                suporte@fastdeal.com.br
+              <a href="mailto:contato@thefastdeal.com.br" className="text-blue-600 hover:underline font-medium">
+                contato@thefastdeal.com.br
               </a>
             </div>
           </section>
