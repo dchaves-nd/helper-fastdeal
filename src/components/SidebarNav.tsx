@@ -41,6 +41,8 @@ const SidebarNav: React.FC<SidebarNavProps> = ({ activeSection }) => {
         />
       </div>
 
+      <h3 className="text-lg font-semibold text-gray-900 mb-4 px-3">Onboarding</h3> {/* Título Onboarding adicionado aqui */}
+
       {navItems.map((item) => (
         <div key={item.id}>
           <a
@@ -69,7 +71,7 @@ const SidebarNav: React.FC<SidebarNavProps> = ({ activeSection }) => {
                   className={cn(
                     "flex items-center px-3 py-2 rounded-md text-sm transition-colors",
                     activeSection === subItem.id
-                      ? "bg-purple-100 text-purple-800 border-l-4 border-purple-500" // Alterado para o estilo roxo
+                      ? "bg-purple-100 text-purple-800 border-l-4 border-purple-500"
                       : "text-gray-500 hover:bg-gray-50 hover:text-gray-700"
                   )}
                 >
