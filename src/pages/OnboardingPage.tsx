@@ -160,12 +160,6 @@ const OnboardingPage = () => {
 
           <section id="agendador-post" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
             <h3 className="text-2xl font-semibold mb-4 text-gray-800">Agendador de post</h3>
-            <div className="p-4 bg-yellow-50 border border-yellow-200 rounded-md text-yellow-800 flex items-center space-x-2">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-              </svg>
-              <p className="font-semibold">Em breve: Esta funcionalidade está sendo desenvolvida e estará disponível em breve!</p>
-            </div>
             <p className="text-gray-700 mt-4">
               Com o agendador, você poderá escolher sua conta, definir o tipo de mídia,
               gerenciar o conteúdo e agendar as datas de publicação para automatizar suas postagens.
