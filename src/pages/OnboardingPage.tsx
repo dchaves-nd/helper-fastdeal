@@ -72,10 +72,7 @@ const OnboardingPage = () => {
               Utilize-as para fazer login na plataforma Fastdeal e começar a impulsionar sua franquia!
             </p>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <p><strong>Placeholder:</strong> Imagem ou GIF mostrando o processo de login.</p>
-              <div className="w-full h-48 bg-gray-200 flex items-center justify-center rounded-md mt-2">
-                <span className="text-gray-500">Imagem de Acesso à Plataforma</span>
-              </div>
+              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de Acesso à Plataforma" className="w-full h-48 object-cover rounded-md mt-2" />
             </div>
           </section>
 
@@ -92,10 +89,7 @@ const OnboardingPage = () => {
               <li>Salve as alterações.</li>
             </ul>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <p><strong>Placeholder:</strong> Imagem ou GIF mostrando a tela de configurações.</p>
-              <div className="w-full h-48 bg-gray-200 flex items-center justify-center rounded-md mt-2">
-                <span className="text-gray-500">Imagem de Configurações Iniciais</span>
-              </div>
+              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de Configurações Iniciais" className="w-full h-48 object-cover rounded-md mt-2" />
             </div>
           </section>
 
@@ -123,9 +117,7 @@ const OnboardingPage = () => {
                     Navegue pela nossa vasta biblioteca de templates aprovados pela franqueadora.
                     Selecione o que melhor se adapta à sua campanha.
                   </p>
-                  <div className="w-full h-32 bg-gray-100 flex items-center justify-center rounded-md">
-                    <span className="text-gray-500 text-sm">Placeholder: Imagem de seleção de template</span>
-                  </div>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de seleção de template" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200">
@@ -137,9 +129,7 @@ const OnboardingPage = () => {
                     Com o template escolhido, a plataforma automaticamente aplicará seu logo e dados de contato.
                     Você pode fazer pequenos ajustes se necessário.
                   </p>
-                  <div className="w-full h-32 bg-gray-100 flex items-center justify-center rounded-md">
-                    <span className="text-gray-500 text-sm">Placeholder: Imagem de geração de mídia</span>
-                  </div>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de geração de mídia" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200">
@@ -151,9 +141,7 @@ const OnboardingPage = () => {
                     Suas mídias personalizadas estarão prontas para download.
                     Baixe-as e utilize-as em suas redes sociais!
                   </p>
-                  <div className="w-full h-32 bg-gray-100 flex items-center justify-center rounded-md">
-                    <span className="text-gray-500 text-sm">Placeholder: Imagem de download de mídia</span>
-                  </div>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de download de mídia" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
             </div>
@@ -166,10 +154,7 @@ const OnboardingPage = () => {
               Organize, filtre e baixe seus posts a qualquer momento.
             </p>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <p><strong>Placeholder:</strong> Imagem da galeria de mídias.</p>
-              <div className="w-full h-48 bg-gray-200 flex items-center justify-center rounded-md mt-2">
-                <span className="text-gray-500">Imagem de Minhas Mídias</span>
-              </div>
+              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem da galeria de mídias" className="w-full h-48 object-cover rounded-md mt-2" />
             </div>
           </section>
 
