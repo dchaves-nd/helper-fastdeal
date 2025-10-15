@@ -49,14 +49,14 @@ const OnboardingPage = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-fastdeal-bg font-verdana"> {/* Removido 'flex' daqui */}
-      <SidebarNav activeSection={activeSection} /> {/* Sidebar fixa */}
-      <main className="ml-64"> {/* Main agora tem apenas ml-64 para se afastar da sidebar */}
-        <div ref={contentRef} className="p-8 space-y-10 max-w-4xl mx-auto"> {/* Novo div para centralizar o conteúdo */}
+    <div className="min-h-screen bg-gradient-fastdeal-bg font-verdana">
+      <SidebarNav activeSection={activeSection} />
+      <main className="ml-64">
+        <div ref={contentRef} className="p-8 space-y-10 max-w-4xl mx-auto">
           {/* Bem-vindo à Fastdeal! */}
           <section id="bem-vindo" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
-              Bem-vindo à <span className="bg-gradient-fastdeal text-transparent bg-clip-text inline-block">Fastdeal!</span>
+              Bem-vindo à <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Fastdeal!</span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               A Fastdeal cria e publica conteúdos no Instagram, Facebook e WhatsApp para a sua franquia,
@@ -104,7 +104,7 @@ const OnboardingPage = () => {
           {/* Operação da Ferramenta */}
           <section id="operacao-ferramenta" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
-              Operação da <span className="bg-gradient-fastdeal text-transparent bg-clip-text inline-block">Ferramenta</span>
+              Operação da <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Ferramenta</span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               Aprenda a utilizar as principais funcionalidades da Fastdeal para criar e gerenciar suas campanhas.
@@ -192,7 +192,7 @@ const OnboardingPage = () => {
           {/* Suporte */}
           <section id="suporte" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
-              <span className="bg-gradient-fastdeal text-transparent bg-clip-text inline-block">Suporte</span>
+              <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Suporte</span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Precisa de ajuda? Nossa equipe de suporte está pronta para auxiliar você em qualquer dúvida ou problema.
@@ -206,7 +206,7 @@ const OnboardingPage = () => {
             </div>
           </section>
           <MadeWithDyad />
-        </div> {/* Fim do novo div para centralizar o conteúdo */}
+        </div>
       </main>
     </div>
   );
