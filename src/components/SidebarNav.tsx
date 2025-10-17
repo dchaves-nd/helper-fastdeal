@@ -28,9 +28,10 @@ const navItems: NavItem[] = [
 
 interface SidebarNavProps {
   activeSection: string | null;
+  sidebarTitle: string; // Adicionando a prop para o título
 }
 
-const SidebarNav: React.FC<SidebarNavProps> = ({ activeSection }) => {
+const SidebarNav: React.FC<SidebarNavProps> = ({ activeSection, sidebarTitle }) => {
   return (
     <nav className="fixed top-0 left-0 w-64 h-screen p-6 space-y-2 border-r border-gray-200 bg-white shadow-md overflow-y-auto">
       <div className="mb-6 pb-4 border-b border-gray-200">
@@ -41,7 +42,7 @@ const SidebarNav: React.FC<SidebarNavProps> = ({ activeSection }) => {
         />
       </div>
 
-      <h3 className="text-base font-semibold text-gray-900 mb-4 px-3">Guia Franqueado</h3> {/* Título atualizado e fonte menor */}
+      <h3 className="text-base font-semibold text-gray-900 mb-4 px-3">{sidebarTitle}</h3> {/* Usando a prop aqui */}
 
       {navItems.map((item) => (
         <div key={item.id}>
