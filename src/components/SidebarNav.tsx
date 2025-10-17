@@ -41,7 +41,7 @@ const SidebarNav: React.FC<SidebarNavProps> = ({ activeSection }) => {
         />
       </div>
 
-      <h3 className="text-lg font-semibold text-gray-900 mb-4 px-3">Onboarding</h3> {/* Título Onboarding adicionado aqui */}
+      <h3 className="text-base font-semibold text-gray-900 mb-4 px-3">Guia Franqueado</h3> {/* Título atualizado e fonte menor */}
 
       {navItems.map((item) => (
         <div key={item.id}>
