@@ -69,7 +69,7 @@ const FranqueadorPage = () => {
           </section>
 
           <section id="acesso-plataforma" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-800">Gerenciando Mídias para suas Franquias</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-gray-800">Credenciais de Acesso ao Ambiente Fastdeal</h3>
             <p className="text-gray-700 mb-4">
               Você receberá suas credenciais de acesso (usuário e senha) pelo e-mail cadastrado na compra.
               Utilize-as para fazer login na plataforma Fastdeal.
