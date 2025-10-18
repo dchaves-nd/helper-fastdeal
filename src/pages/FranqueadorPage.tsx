@@ -60,7 +60,7 @@ const FranqueadorPage = () => {
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               A Fastdeal cria e publica conteúdos no Instagram, Facebook e WhatsApp para a sua franquia,
-              gerando presença, engajamento e vendas. <br><br> Este guia foi desenvolvido para franqueadores que desejam
+              gerando presença, engajamento e vendas. <br /><br /> Este guia foi desenvolvido para franqueadores que desejam
               entregar conteúdo de mídia social aprovado e padronizado, permitindo que o sistema Fastdeal
               distribua esse conteúdo automaticamente, personalizado com o logo e dados individuais de cada franquia.
               Seus franqueados poderão receber via e-mail e/ou arquivos para baixar na sessão.
