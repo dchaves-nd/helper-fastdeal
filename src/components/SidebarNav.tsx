@@ -14,13 +14,12 @@ const navItems: NavItem[] = [
   { id: 'acesso-plataforma', title: 'Acesso à plataforma', icon: LogIn },
   { id: 'configuracoes-iniciais', title: 'Configurações iniciais', icon: Settings },
   {
-    id: 'operacao-ferramenta',
-    title: 'Operação da Ferramenta',
+    id: 'geracao-conteudos', // Título atualizado
+    title: 'Geração de Conteúdos', // Título atualizado
     icon: Wrench,
     subItems: [
-      { id: 'geracao-midias', title: 'Geração de mídias' },
-      { id: 'minhas-midias', title: 'Minhas mídias' },
-      { id: 'agendador-post', title: 'Agendador de post' },
+      { id: 'geracao-midias', title: 'Gerando Templates' },
+      { id: 'configuracao-distribuicao', title: 'Config. Distribuição Automática' }, // Novo sub-item
     ],
   },
   { id: 'suporte', title: 'Suporte', icon: LifeBuoy },

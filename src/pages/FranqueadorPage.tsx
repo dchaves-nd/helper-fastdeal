@@ -11,11 +11,9 @@ const sectionIds = [
   'bem-vindo',
   'acesso-plataforma',
   'configuracoes-iniciais',
-  'operacao-ferramenta',
+  'geracao-conteudos', // ID atualizado
   'geracao-midias',
-  'configuracao-distribuicao', // Adicionado o novo ID da seção
-  'minhas-midias',
-  'agendador-post',
+  'configuracao-distribuicao',
   'suporte',
 ];
 
@@ -107,10 +105,10 @@ const FranqueadorPage = () => {
 
           <Separator className="my-10" />
 
-          {/* Operação da Ferramenta */}
-          <section id="operacao-ferramenta" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+          {/* Geração de Conteúdos */}
+          <section id="geracao-conteudos" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
-              Operação da <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Ferramenta</span>
+              Geração de <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Conteúdos</span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               Aprenda a utilizar as principais funcionalidades da Fastdeal para criar e gerenciar suas campanhas.
@@ -252,27 +250,6 @@ const FranqueadorPage = () => {
 
           <Separator className="my-10" />
 
-          <section id="minhas-midias" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-800">Minhas mídias</h3>
-            <p className="text-gray-700">
-              Nesta seção, você pode visualizar todas as mídias que gerou.
-              Organize, filtre e baixe seus posts a qualquer momento.
-            </p>
-            <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem da galeria de mídias" className="w-full h-48 object-cover rounded-md mt-2" />
-            </div>
-          </section>
-
-          <section id="agendador-post" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-800">Agendador de post</h3>
-            <p className="text-gray-700 mt-4">
-              Com o agendador, você poderá escolher sua conta, definir o tipo de mídia,
-              gerenciar o conteúdo e agendar as datas de publicação para automatizar suas postagens.
-            </p>
-          </section>
-
-          <Separator className="my-10" />
-
           {/* Suporte */}
           <section id="suporte" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
@@ -284,8 +261,8 @@ const FranqueadorPage = () => {
             <div className="p-6 bg-blue-50 border border-blue-200 rounded-lg text-blue-800">
               <h4 className="text-xl font-semibold mb-2">Entre em contato</h4>
               <p className="mb-2">Envie um e-mail para nossa equipe de suporte:</p>
-              <a href="mailto:contato@thefastdeal.com.br" className="text-blue-600 hover:underline font-medium">
-                contato@thefastdeal.com.br
+              <a href="mailto:marketing@thefastdeal.com.br" className="text-blue-600 hover:underline font-medium">
+                marketing@thefastdeal.com.br
               </a>
             </div>
           </section>
