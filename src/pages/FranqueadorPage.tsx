@@ -13,6 +13,7 @@ const sectionIds = [
   'configuracoes-iniciais',
   'operacao-ferramenta',
   'geracao-midias',
+  'configuracao-distribuicao', // Adicionado o novo ID da seção
   'minhas-midias',
   'agendador-post',
   'suporte',
@@ -192,6 +193,64 @@ const FranqueadorPage = () => {
               <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de compartilhamento de modelos" className="w-full h-48 object-cover rounded-md mt-2" />
             </div>
           </section>
+
+          <Separator className="my-10" />
+
+          {/* Novo Bloco: Configurando a Distribuição Automática para os Franqueados */}
+          <section id="configuracao-distribuicao" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+            <h2 className="text-3xl font-bold mb-4 text-gray-800">
+              Configurando a <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Distribuição Automática</span> para os Franqueados
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              A distribuição automática é o grande diferencial da Fastdeal, permitindo que as mídias personalizadas cheguem aos franqueados de forma eficiente, por e-mail e disponibilizando na sessão do franqueado para que ele faça download.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card className="rounded-lg shadow-sm border border-gray-200">
+                <CardHeader>
+                  <CardTitle className="text-xl font-semibold text-gray-800">1. Criando uma Ação de Distribuição</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-700 mb-4">
+                    No menu "Campanhas e Ações" clique na aba "Ações" e clique no botão "+ Nova ação". Selecione o tipo de ação "Content Media" &gt; "Selecionar template já existente" e na lista que aparecer, selecione o nosso template recém-criado e clique em Continuar.
+                  </p>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de ação de distribuição" className="w-full h-32 object-cover rounded-md" />
+                </CardContent>
+              </Card>
+              <Card className="rounded-lg shadow-sm border border-gray-200">
+                <CardHeader>
+                  <CardTitle className="text-xl font-semibold text-gray-800">2. Definindo Modelos e Canais de entrega</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
+                    <li>a. Para quem irá gerar os conteúdos: normalmente será a opção "Para todas as contas vinculadas à esta".</li>
+                    <li>b. Nome da pasta dos arquivos: Aqui você defini níveis de organização. Esses modelos estarão dentro de uma pasta que você pode definir, como nome de uma campanha, de uma remessa, de um evento etc.</li>
+                    <li>c. Ação para enviar as mídias por e-mail: selecione nosso template de e-mail existente caso queira entregar as mídias por e-mail também. Não se preocupe, o conteúdo do e-mail é feito de forma automática.</li>
+                  </ul>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de definição de modelos e canais" className="w-full h-32 object-cover rounded-md" />
+                </CardContent>
+              </Card>
+              <Card className="rounded-lg shadow-sm border border-gray-200">
+                <CardHeader>
+                  <CardTitle className="text-xl font-semibold text-gray-800">3. Resumo da Distribuição e Ação final</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-700 mb-4">
+                    Após ter definido os canais e clicado em Salvar, confira se todas as configurações estão corretas e se há pendência de atributos dinâmicos para alguma das contas dos franqueados.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    Se houver pendências, você pode optar por corrigir no ato clicando no atributo em falta. Ou então optar enviar as mídias com os dados da franqueadora.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    Se estiver tudo ok, clique em "Gerar mídias" e verifique o status no Histórico de Processos.
+                  </p>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de resumo da distribuição" className="w-full h-32 object-cover rounded-md" />
+                </CardContent>
+              </Card>
+            </div>
+          </section>
+
+          <Separator className="my-10" />
 
           <section id="minhas-midias" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
             <h3 className="text-2xl font-semibold mb-4 text-gray-800">Minhas mídias</h3>
