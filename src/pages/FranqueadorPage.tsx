@@ -107,7 +107,7 @@ const FranqueadorPage = () => {
               <li>Por padrão, a <span className="font-semibold">Logo principal</span> e <span className="font-semibold">Telefone da unidade</span> estão compartilhados com as unidades vinculadas à sua franquia. A Fastdeal também instrui cada franqueado a enviar estes dados na plataforma, pois, sem eles, o sistema não conseguirá personalizar as mídias.</li>
             </ol>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1757607026746_pasted-image-2025-10-18T13-30-26-746Z.png" alt="Imagem de Configurações Iniciais" className="w-full h-48 object-cover rounded-md mt-2" />
+              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1757607317366_pasted-image-2025-10-18T13-35-17-366Z.png" alt="Imagem de Configurações Iniciais" className="w-full h-48 object-cover rounded-md mt-2" />
             </div>
 
             <h4 className="text-xl font-semibold mb-3 text-gray-800 mt-8">Criando novos atributos</h4>
