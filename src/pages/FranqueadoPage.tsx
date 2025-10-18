@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { SidebarNav } from '@/components/SidebarNav'; // Certifique-se de que SidebarNav é exportado corretamente
+import SidebarNav from '@/components/SidebarNav'; // Importação corrigida para default export
 import { Home, LayoutDashboard } from 'lucide-react';
 
 // Definição da interface NavItem (pode ser importada de SidebarNav se for exportada)
