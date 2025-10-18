@@ -117,44 +117,79 @@ const FranqueadorPage = () => {
           </section>
 
           <section id="geracao-midias" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Geração de mídias</h3>
-            <div className="grid md:grid-cols-3 gap-6">
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Gerando Templates: O que são Templates e Modelos</h3>
+            <p className="text-gray-700 mb-6">
+              Os templates são a base do seu conteúdo na Fastdeal. Eles são modelos (como Post para Feed, Stories, Banners etc) que a franqueadora irá disponibilizar e que podem ser personalizados para cada franquia com atributos dinâmicos, como logo e telefone.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-10">
               <Card className="rounded-lg shadow-sm border border-gray-200">
                 <CardHeader>
-                  <CardTitle className="text-xl font-semibold text-gray-800">1. Escolha um template da biblioteca</CardTitle>
+                  <CardTitle className="text-xl font-semibold text-gray-800">1. Navegando na Seção de Templates</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700 mb-4">
-                    Navegue pela nossa vasta biblioteca de templates aprovados pela franqueadora.
-                    Selecione o que melhor se adapta à sua campanha.
+                    Após fazer login, localize o menu lateral "Campanhas e Ações" e clique em "Templates". Para criar um novo template clique no botão direito "+ Novo Template".
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de seleção de template" className="w-full h-32 object-cover rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de navegação na seção de templates" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200">
                 <CardHeader>
-                  <CardTitle className="text-xl font-semibold text-gray-800">2. Gere a mídia com seus dados</CardTitle>
+                  <CardTitle className="text-xl font-semibold text-gray-800">2. Criando um Novo Template</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700 mb-4">
-                    Com o template escolhido, a plataforma automaticamente aplicará seu logo e dados de contato.
-                    Você pode fazer pequenos ajustes se necessário.
+                    Após criar um novo template, escolha o tipo de mídia (modelo) que deseja criar (ex: Post para Instagram, Story para Facebook, Banner para WhatsApp).
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de geração de mídia" className="w-full h-32 object-cover rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de novo template" className="w-full h-32 object-cover rounded-md" />
+                </CardContent>
+              </Card>
+            </div>
+
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Edição de Templates e Atributos Dinâmicos</h3>
+            <p className="text-gray-700 mb-6">
+              A edição de templates permite que você personalize o conteúdo com atributos dinâmicos que serão preenchidos automaticamente com os dados de cada franquia.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-10">
+              <Card className="rounded-lg shadow-sm border border-gray-200">
+                <CardHeader>
+                  <CardTitle className="text-xl font-semibold text-gray-800">1. Upload de Elementos Visuais</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-700 mb-4">
+                    Faça o upload de imagens e outros elementos gráficos que farão parte do seu template.
+                  </p>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de upload de elementos visuais" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200">
                 <CardHeader>
-                  <CardTitle className="text-xl font-semibold text-gray-800">3. Acesse suas mídias e baixe</CardTitle>
+                  <CardTitle className="text-xl font-semibold text-gray-800">2. Adicionando Atributos Dinâmicos</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-700 mb-4">
-                    Suas mídias personalizadas estarão prontas para download.
-                    Baixe-as e utilize-as em suas redes sociais!
-                  </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de download de mídia" className="w-full h-32 object-cover rounded-md" />
+                  <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
+                    <li>a. Adicione um novo item no menu esquerdo e localize a opção "Tipo" para trocar para "Atributo dinâmico".</li>
+                    <li>b. Em "Atributo", defina o tipo de atributo que deseja incluir na mídia, como:
+                      <ul className="list-disc list-inside ml-6 mt-1">
+                        <li><span className="font-mono">[LOGO_FRANQUIA]</span>: Será substituído pelo logo individual de cada franquia quando a Fastdeal distribuir.</li>
+                        <li><span className="font-mono">[TELEFONE_FRANQUIA]</span>: Será substituído pelo telefone de contato da franquia.</li>
+                      </ul>
+                    </li>
+                    <li>c. Defina uma imagem ou texto de exemplo para visualizar suas edições. Edite as propriedades como largura máxima e posição na mídia para posicionar corretamente o dado. Salve o conteúdo para seguir adiante.</li>
+                  </ul>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de adição de atributos dinâmicos" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
+            </div>
+
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Compartilhamento de Modelos com suas Franquias</h3>
+            <p className="text-gray-700 mb-4">
+              Após criar seus templates, o próximo passo é compartilhá-los com suas franquias. Para isso, no mesmo modal "Content Media" onde você criou os modelos, selecione "Compartilhamento" &gt; "Adicionar perfis" &gt; "Contas vinculadas à minha". Altere para "Visualizar" e Salve os ajustes.
+            </p>
+            <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
+              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de compartilhamento de modelos" className="w-full h-48 object-cover rounded-md mt-2" />
             </div>
           </section>
 
