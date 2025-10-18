@@ -118,7 +118,7 @@ const FranqueadorPage = () => {
               Dessa forma os franqueados também verão em suas sessões este novo atributo/dado.
             </p>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de novos atributos" className="w-full h-auto object-contain rounded-md mt-2" />
+              <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760800257006_captura_de_tela_2025_10_18_151032.png" alt="Imagem de criação de novos atributos" className="w-full h-auto object-contain rounded-md mt-2" />
             </div>
           </section>
 
