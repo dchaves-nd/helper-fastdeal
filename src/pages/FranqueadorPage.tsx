@@ -184,7 +184,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Faça o <span className="font-semibold">upload de imagens e outros elementos gráficos</span> que farão parte do seu template.
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de upload de elementos visuais" className="w-full h-auto object-contain rounded-md mb-6" />
+                  <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760801480678_captura_de_tela_2025_10_18_153108.png" alt="Imagem de upload de elementos visuais" className="w-full h-auto object-contain rounded-md mb-6" />
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Defina uma legenda ou hashtag vinculado ao modelo preenchendo o campo "<span className="font-semibold">Descrição</span>".
                   </p>
