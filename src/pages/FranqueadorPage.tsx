@@ -152,7 +152,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Após fazer login, localize o menu lateral "<span className="font-semibold">Campanhas e Ações</span>" e clique em "<span className="font-semibold">Templates</span>". Para criar um novo template clique no botão direito "<span className="font-semibold">+ Novo Template</span>".
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de navegação na seção de templates" className="w-full h-auto object-contain rounded-md" />
+                  <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760800439678_captura_de_tela_2025_10_18_151340.png" alt="Imagem de navegação na seção de templates" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
