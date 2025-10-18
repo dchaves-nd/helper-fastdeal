@@ -58,6 +58,11 @@ const FranqueadorPage = () => {
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
               Franqueador, bem-vindo à <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Fastdeal!</span>
             </h2>
+            <img 
+              src="https://s3.amazonaws.com/producao.spayce.com.br/1756163869995_imaghero.png" 
+              alt="Hero Image" 
+              className="w-full rounded-lg mb-6" 
+            />
             <p className="text-lg text-gray-700 leading-relaxed">
               A Fastdeal cria e publica conteúdos no Instagram, Facebook e WhatsApp para a sua franquia,
               gerando presença, engajamento e vendas. <br /><br /> Este guia foi desenvolvido para franqueadores que desejam
