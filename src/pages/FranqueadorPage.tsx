@@ -116,7 +116,7 @@ const FranqueadorPage = () => {
               Geração de <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Conteúdos</span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Aprenda a utilizar as principais funcionalidades da Fastdeal para criar e gerenciar suas campanhas.
+              Siga os passos abaixo para aprender a rotina de geração de conteúdo e distribuição para seus franqueados.
             </p>
           </section>
 
