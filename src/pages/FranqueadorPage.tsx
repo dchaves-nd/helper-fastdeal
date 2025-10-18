@@ -151,7 +151,7 @@ const FranqueadorPage = () => {
               A edição de templates permite que você personalize o conteúdo com atributos dinâmicos que serão preenchidos automaticamente com os dados de cada franquia.
             </p>
 
-            <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <div className="space-y-6 mb-10"> {/* Alterado para single column */}
               <Card className="rounded-lg shadow-sm border border-gray-200">
                 <CardHeader>
                   <CardTitle className="text-xl font-semibold text-gray-800">1. Upload de Elementos Visuais</CardTitle>
@@ -203,7 +203,7 @@ const FranqueadorPage = () => {
               A distribuição automática é o grande diferencial da Fastdeal, permitindo que as mídias personalizadas cheguem aos franqueados de forma eficiente, por e-mail e disponibilizando na sessão do franqueado para que ele faça download.
             </p>
 
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="space-y-6"> {/* Alterado para single column */}
               <Card className="rounded-lg shadow-sm border border-gray-200">
                 <CardHeader>
                   <CardTitle className="text-xl font-semibold text-gray-800">1. Criando uma Ação de Distribuição</CardTitle>
