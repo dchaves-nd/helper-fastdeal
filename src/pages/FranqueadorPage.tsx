@@ -163,7 +163,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Após clicar em "<span className="font-semibold">+Novo Template</span>", selecione "<span className="font-semibold">Content Media</span>". Dê um nome como "<span className="font-semibold">Campanha Natal</span>", ou "<span className="font-semibold">Semana 20-25 Dez</span>" e clique em "<span className="font-semibold">Adicionar modelo</span>". Escolha o <span className="font-semibold">tipo de mídia (modelo)</span> que deseja criar (ex: Post para Instagram, Story para Facebook, Banner para WhatsApp). Você também pode adicionar mais de um modelo em um único Template.
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de novo template" className="w-full h-auto object-contain rounded-md" />
+                  <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760801301240_captura_de_tela_2025_10_18_152807.png" alt="Imagem de criação de novo template" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
             </div>
