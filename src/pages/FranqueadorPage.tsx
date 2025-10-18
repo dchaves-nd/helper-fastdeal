@@ -50,7 +50,7 @@ const FranqueadorPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-fastdeal-bg font-verdana">
-      <SidebarNav activeSection={activeSection} sidebarTitle="Guia Franqueador" /> {/* Passando o título */}
+      <SidebarNav activeSection={activeSection} sidebarTitle="Guia do Franqueador" /> {/* Passando o título */}
       <main className="ml-64">
         <div ref={contentRef} className="p-8 space-y-10 max-w-4xl mx-auto">
           {/* Bem-vindo à Fastdeal! */}
