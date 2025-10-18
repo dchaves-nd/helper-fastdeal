@@ -4,7 +4,7 @@ import { Sparkles, LogIn, Settings, Wrench, LifeBuoy, ChevronDown } from 'lucide
 
 interface NavItem {
   id: string;
-  title: string;
+  title: string;f
   icon?: React.ElementType;
   subItems?: NavItem[];
 }
