@@ -61,7 +61,7 @@ const FranqueadorPage = () => {
             <img 
               src="https://s3.amazonaws.com/producao.spayce.com.br/1756163869995_imaghero.png" 
               alt="Hero Image" 
-              className="w-full rounded-lg mb-6 object-contain" 
+              className="w-full h-auto object-contain rounded-lg mb-6" 
             />
             <p className="text-lg text-gray-700 leading-relaxed">
               A Fastdeal cria e publica conteúdos no Instagram, Facebook e WhatsApp para a sua franquia,
@@ -107,7 +107,7 @@ const FranqueadorPage = () => {
               <li>Por padrão, a <span className="font-semibold">Logo principal</span> e <span className="font-semibold">Telefone da unidade</span> estão compartilhados com as unidades vinculadas à sua franquia. A Fastdeal também instrui cada franqueado a enviar estes dados na plataforma, pois, sem eles, o sistema não conseguirá personalizar as mídias.</li>
             </ol>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760783928603_captura_de_tela_2025_10_18_102903.png" alt="Imagem de Configurações Iniciais" className="w-full h-48 object-contain rounded-md mt-2" />
+              <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760783928603_captura_de_tela_2025_10_18_102903.png" alt="Imagem de Configurações Iniciais" className="w-full h-auto object-contain rounded-md mt-2" />
             </div>
 
             <h4 className="text-xl font-semibold mb-3 text-gray-800 mt-8">Criando novos atributos</h4>
@@ -118,7 +118,7 @@ const FranqueadorPage = () => {
               Dessa forma os franqueados também verão em suas sessões este novo atributo/dado.
             </p>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de novos atributos" className="w-full h-48 object-contain rounded-md mt-2" />
+              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de novos atributos" className="w-full h-auto object-contain rounded-md mt-2" />
             </div>
           </section>
 
@@ -152,7 +152,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Após fazer login, localize o menu lateral "<span className="font-semibold">Campanhas e Ações</span>" e clique em "<span className="font-semibold">Templates</span>". Para criar um novo template clique no botão direito "<span className="font-semibold">+ Novo Template</span>".
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de navegação na seção de templates" className="w-full h-32 object-contain rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de navegação na seção de templates" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
@@ -163,7 +163,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Após criar um novo template, escolha o <span className="font-semibold">tipo de mídia (modelo)</span> que deseja criar (ex: Post para Instagram, Story para Facebook, Banner para WhatsApp).
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de novo template" className="w-full h-32 object-contain rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de novo template" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
             </div>
@@ -184,11 +184,11 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Faça o <span className="font-semibold">upload de imagens e outros elementos gráficos</span> que farão parte do seu template.
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de upload de elementos visuais" className="w-full h-32 object-contain rounded-md mb-6" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de upload de elementos visuais" className="w-full h-auto object-contain rounded-md mb-6" />
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Defina uma legenda ou hashtag vinculado ao modelo preenchendo o campo "<span className="font-semibold">Descrição</span>".
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de definição de legenda ou hashtag" className="w-full h-32 object-contain rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de definição de legenda ou hashtag" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
@@ -206,7 +206,7 @@ const FranqueadorPage = () => {
                     </li>
                     <li>c. Defina uma imagem ou texto de exemplo para visualizar suas edições. Edite as propriedades como largura máxima e posição na mídia para posicionar corretamente o dado. <span className="font-semibold">Salve o conteúdo</span> para seguir adiante.</li>
                   </ul>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de adição de atributos dinâmicos" className="w-full h-32 object-contain rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de adição de atributos dinâmicos" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
             </div>
@@ -218,7 +218,7 @@ const FranqueadorPage = () => {
               Após criar seus templates, o próximo passo é <span className="font-semibold">compartilhá-los com suas franquias</span>. Para isso, no mesmo modal "Content Media" onde você criou os modelos, selecione "<span className="font-semibold">Compartilhamento</span>" &gt; "<span className="font-semibold">Adicionar perfis</span>" &gt; "<span className="font-semibold">Contas vinculadas à minha</span>". Altere para "<span className="font-semibold">Visualizar</span>" e <span className="font-semibold">Salve os ajustes</span>.
             </p>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de compartilhamento de modelos" className="w-full h-48 object-contain rounded-md mt-2" />
+              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de compartilhamento de modelos" className="w-full h-auto object-contain rounded-md mt-2" />
             </div>
           </section>
 
@@ -244,7 +244,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     No menu "<span className="font-semibold">Campanhas e Ações</span>" clique na aba "<span className="font-semibold">Ações</span>" e clique no botão "<span className="font-semibold">+ Nova ação</span>". Selecione o tipo de ação "<span className="font-semibold">Content Media</span>" &gt; "<span className="font-semibold">Selecionar template já existente</span>" e na lista que aparecer, selecione o nosso template recém-criado e clique em <span className="font-semibold">Continuar</span>.
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de ação de distribuição" className="w-full h-32 object-contain rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de ação de distribuição" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
@@ -259,7 +259,7 @@ const FranqueadorPage = () => {
                     <li>b. Nome da pasta dos arquivos: Aqui você define níveis de organização. Esses modelos estarão dentro de uma pasta que você pode definir, como nome de uma campanha, de uma remessa, de um evento etc.</li>
                     <li>c. Ação para enviar as mídias por e-mail: selecione nosso template de e-mail existente caso queira entregar as mídias por e-mail também. Não se preocupe, o conteúdo do e-mail é feito de forma automática.</li>
                   </ul>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de definição de modelos e canais" className="w-full h-32 object-contain rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de definição de modelos e canais" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
@@ -278,7 +278,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Se estiver tudo ok, clique em "<span className="font-semibold">Gerar mídias</span>" e verifique o status no <span className="font-semibold">Histórico de Processos</span>.
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de resumo da distribuição" className="w-full h-32 object-contain rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de resumo da distribuição" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
             </div>
