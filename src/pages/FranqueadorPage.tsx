@@ -5,6 +5,7 @@ import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
 import { MadeWithDyad } from '@/components/made-with-dyad';
 import { Button } from '@/components/ui/button';
+import { Key, Settings, LayoutTemplate, Edit, Share2, PlusCircle, Mail, CheckCircle } from 'lucide-react'; // Importando os ícones
 
 // Lista plana de IDs para o IntersectionObserver
 const sectionIds = [
@@ -68,7 +69,9 @@ const FranqueadorPage = () => {
 
           {/* Credenciais de Acesso ao Ambiente Fastdeal */}
           <section id="acesso-plataforma" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-800">Credenciais de Acesso ao Ambiente Fastdeal</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-gray-800 flex items-center">
+              <Key className="h-6 w-6 mr-3 text-purple-600" /> Credenciais de Acesso ao Ambiente Fastdeal
+            </h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Você receberá suas credenciais de acesso (<span className="font-semibold">usuário e senha</span>) pelo e-mail cadastrado na compra.
               Utilize-as para fazer login na plataforma Fastdeal.
@@ -88,12 +91,14 @@ const FranqueadorPage = () => {
 
           {/* Configurações iniciais */}
           <section id="configuracoes-iniciais" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-800">Configurações Iniciais</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-gray-800 flex items-center">
+              <Settings className="h-6 w-6 mr-3 text-purple-600" /> Configurações Iniciais
+            </h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Para personalizar suas mídias e garantir que sua franquia esteja sempre atualizada,
               siga estes passos para configurar seu <span className="font-semibold">logo e dados de contato</span>:
             </p>
-            <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 pl-4"> {/* Aumentado o espaçamento da lista */}
+            <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 pl-4">
               <li>Acesse a seção "<span className="font-semibold">Meu Perfil</span>" ou "<span className="font-semibold">Configurações</span>".</li>
               <li>Faça o <span className="font-semibold">upload do seu logo</span> em alta resolução.</li>
               <li>Preencha seus <span className="font-semibold">dados de contato</span>, como telefone, endereço e redes sociais.</li>
@@ -104,7 +109,7 @@ const FranqueadorPage = () => {
             </div>
           </section>
 
-          <Separator className="my-12" /> {/* Separador mais proeminente */}
+          <Separator className="my-12" />
 
           {/* Geração de Conteúdos (Título Principal) */}
           <section id="geracao-conteudos" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
@@ -118,29 +123,31 @@ const FranqueadorPage = () => {
 
           {/* Gerando Templates: O que são Templates e Modelos */}
           <section id="geracao-midias" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Gerando Templates: O que são Templates e Modelos</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
+              <LayoutTemplate className="h-6 w-6 mr-3 text-purple-600" /> Gerando Templates: O que são Templates e Modelos
+            </h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               Os <span className="font-semibold">templates</span> são a base do seu conteúdo na Fastdeal. Eles são modelos (como Post para Feed, Stories, Banners etc) que a franqueadora irá disponibilizar e que podem ser personalizados para cada franquia com <span className="font-semibold">atributos dinâmicos</span>, como logo e telefone.
             </p>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-10"> {/* Espaçamento maior entre cards */}
-              <Card className="rounded-lg shadow-sm border border-gray-200 p-6"> {/* Adicionado padding interno */}
-                <CardHeader className="pb-4"> {/* Ajustado padding */}
+            <div className="grid md:grid-cols-2 gap-8 mb-10">
+              <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
+                <CardHeader className="pb-4">
                   <CardTitle className="text-xl font-semibold text-gray-800">1. Navegando na Seção de Templates</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                  <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Após fazer login, localize o menu lateral "<span className="font-semibold">Campanhas e Ações</span>" e clique em "<span className="font-semibold">Templates</span>". Para criar um novo template clique no botão direito "<span className="font-semibold">+ Novo Template</span>".
                   </p>
                   <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de navegação na seção de templates" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
-              <Card className="rounded-lg shadow-sm border border-gray-200 p-6"> {/* Adicionado padding interno */}
-                <CardHeader className="pb-4"> {/* Ajustado padding */}
+              <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
+                <CardHeader className="pb-4">
                   <CardTitle className="text-xl font-semibold text-gray-800">2. Criando um Novo Template</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                  <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Após criar um novo template, escolha o <span className="font-semibold">tipo de mídia (modelo)</span> que deseja criar (ex: Post para Instagram, Story para Facebook, Banner para WhatsApp).
                   </p>
                   <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de novo template" className="w-full h-32 object-cover rounded-md" />
@@ -148,29 +155,31 @@ const FranqueadorPage = () => {
               </Card>
             </div>
 
-            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Edição de Templates e Atributos Dinâmicos</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
+              <Edit className="h-6 w-6 mr-3 text-purple-600" /> Edição de Templates e Atributos Dinâmicos
+            </h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               A edição de templates permite que você personalize o conteúdo com <span className="font-semibold">atributos dinâmicos</span> que serão preenchidos automaticamente com os dados de cada franquia.
             </p>
 
-            <div className="space-y-8 mb-10"> {/* Espaçamento maior entre cards */}
-              <Card className="rounded-lg shadow-sm border border-gray-200 p-6"> {/* Adicionado padding interno */}
+            <div className="space-y-8 mb-10">
+              <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
                 <CardHeader className="pb-4">
                   <CardTitle className="text-xl font-semibold text-gray-800">1. Upload de Elementos Visuais</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                  <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Faça o <span className="font-semibold">upload de imagens e outros elementos gráficos</span> que farão parte do seu template.
                   </p>
                   <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de upload de elementos visuais" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
-              <Card className="rounded-lg shadow-sm border border-gray-200 p-6"> {/* Adicionado padding interno */}
+              <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
                 <CardHeader className="pb-4">
                   <CardTitle className="text-xl font-semibold text-gray-800">2. Adicionando Atributos Dinâmicos</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ul className="list-disc list-inside space-y-3 text-base text-gray-700 mb-4 pl-4 leading-relaxed">
+                  <ul className="list-disc list-inside space-y-3 text-base text-gray-600 mb-4 pl-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     <li>a. Adicione um novo item no menu esquerdo e localize a opção "<span className="font-semibold">Tipo</span>" para trocar para "<span className="font-semibold">Atributo dinâmico</span>".</li>
                     <li>b. Em "<span className="font-semibold">Atributo</span>", defina o tipo de atributo que deseja incluir na mídia, como:
                       <ul className="list-disc list-inside ml-6 mt-2 space-y-2">
@@ -185,7 +194,9 @@ const FranqueadorPage = () => {
               </Card>
             </div>
 
-            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Compartilhamento de Modelos com suas Franquias</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
+              <Share2 className="h-6 w-6 mr-3 text-purple-600" /> Compartilhamento de Modelos com suas Franquias
+            </h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Após criar seus templates, o próximo passo é <span className="font-semibold">compartilhá-los com suas franquias</span>. Para isso, no mesmo modal "Content Media" onde você criou os modelos, selecione "<span className="font-semibold">Compartilhamento</span>" &gt; "<span className="font-semibold">Adicionar perfis</span>" &gt; "<span className="font-semibold">Contas vinculadas à minha</span>". Altere para "<span className="font-semibold">Visualizar</span>" e <span className="font-semibold">Salve os ajustes</span>.
             </p>
@@ -194,7 +205,7 @@ const FranqueadorPage = () => {
             </div>
           </section>
 
-          <Separator className="my-12" /> {/* Separador mais proeminente */}
+          <Separator className="my-12" />
 
           {/* Configurando a Distribuição Automática para os Franqueados */}
           <section id="configuracao-distribuicao" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
@@ -205,24 +216,28 @@ const FranqueadorPage = () => {
               A distribuição automática é o grande diferencial da Fastdeal, permitindo que as mídias personalizadas cheguem aos franqueados de forma eficiente, por e-mail e disponibilizando na sessão do franqueado para que ele faça download.
             </p>
 
-            <div className="space-y-8"> {/* Alterado para single column e espaçamento maior */}
-              <Card className="rounded-lg shadow-sm border border-gray-200 p-6">
+            <div className="space-y-8">
+              <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
                 <CardHeader className="pb-4">
-                  <CardTitle className="text-xl font-semibold text-gray-800">1. Criando uma Ação de Distribuição</CardTitle>
+                  <CardTitle className="text-xl font-semibold text-gray-800 flex items-center">
+                    <PlusCircle className="h-5 w-5 mr-2 text-purple-600" /> 1. Criando uma Ação de Distribuição
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                  <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     No menu "<span className="font-semibold">Campanhas e Ações</span>" clique na aba "<span className="font-semibold">Ações</span>" e clique no botão "<span className="font-semibold">+ Nova ação</span>". Selecione o tipo de ação "<span className="font-semibold">Content Media</span>" &gt; "<span className="font-semibold">Selecionar template já existente</span>" e na lista que aparecer, selecione o nosso template recém-criado e clique em <span className="font-semibold">Continuar</span>.
                   </p>
                   <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de ação de distribuição" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
-              <Card className="rounded-lg shadow-sm border border-gray-200 p-6">
+              <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
                 <CardHeader className="pb-4">
-                  <CardTitle className="text-xl font-semibold text-gray-800">2. Definindo Modelos e Canais de Entrega</CardTitle>
+                  <CardTitle className="text-xl font-semibold text-gray-800 flex items-center">
+                    <Mail className="h-5 w-5 mr-2 text-purple-600" /> 2. Definindo Modelos e Canais de Entrega
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ul className="list-disc list-inside space-y-3 text-base text-gray-700 mb-4 pl-4 leading-relaxed">
+                  <ul className="list-disc list-inside space-y-3 text-base text-gray-600 mb-4 pl-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     <li>a. Para quem irá gerar os conteúdos: normalmente será a opção "<span className="font-semibold">Para todas as contas vinculadas à esta</span>".</li>
                     <li>b. Nome da pasta dos arquivos: Aqui você define níveis de organização. Esses modelos estarão dentro de uma pasta que você pode definir, como nome de uma campanha, de uma remessa, de um evento etc.</li>
                     <li>c. Ação para enviar as mídias por e-mail: selecione nosso template de e-mail existente caso queira entregar as mídias por e-mail também. Não se preocupe, o conteúdo do e-mail é feito de forma automática.</li>
@@ -230,18 +245,20 @@ const FranqueadorPage = () => {
                   <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de definição de modelos e canais" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
-              <Card className="rounded-lg shadow-sm border border-gray-200 p-6">
+              <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
                 <CardHeader className="pb-4">
-                  <CardTitle className="text-xl font-semibold text-gray-800">3. Resumo da Distribuição e Ação Final</CardTitle>
+                  <CardTitle className="text-xl font-semibold text-gray-800 flex items-center">
+                    <CheckCircle className="h-5 w-5 mr-2 text-purple-600" /> 3. Resumo da Distribuição e Ação Final
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                  <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Após ter definido os canais e clicado em <span className="font-semibold">Salvar</span>, confira se todas as configurações estão corretas e se há pendência de atributos dinâmicos para alguma das contas dos franqueados.
                   </p>
-                  <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                  <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Se houver pendências, você pode optar por corrigir no ato clicando no atributo em falta. Ou então optar enviar as mídias com os dados da franqueadora.
                   </p>
-                  <p className="text-base text-gray-700 mb-4 leading-relaxed">
+                  <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Se estiver tudo ok, clique em "<span className="font-semibold">Gerar mídias</span>" e verifique o status no <span className="font-semibold">Histórico de Processos</span>.
                   </p>
                   <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de resumo da distribuição" className="w-full h-32 object-cover rounded-md" />
@@ -250,7 +267,7 @@ const FranqueadorPage = () => {
             </div>
           </section>
 
-          <Separator className="my-12" /> {/* Separador mais proeminente */}
+          <Separator className="my-12" />
 
           {/* Suporte */}
           <section id="suporte" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
