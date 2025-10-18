@@ -164,13 +164,17 @@ const FranqueadorPage = () => {
             <div className="space-y-8 mb-10">
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
                 <CardHeader className="pb-4">
-                  <CardTitle className="text-xl font-semibold text-gray-800">1. Upload de Elementos Visuais</CardTitle>
+                  <CardTitle className="text-xl font-semibold text-gray-800">1. Upload de Elementos Visuais + Legendas e Hashtags</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Faça o <span className="font-semibold">upload de imagens e outros elementos gráficos</span> que farão parte do seu template.
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de upload de elementos visuais" className="w-full h-32 object-cover rounded-md" />
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de upload de elementos visuais" className="w-full h-32 object-cover rounded-md mb-6" />
+                  <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
+                    Defina uma legenda ou hashtag vinculado ao modelo preenchendo o campo "<span className="font-semibold">Descrição</span>".
+                  </p>
+                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de definição de legenda ou hashtag" className="w-full h-32 object-cover rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
