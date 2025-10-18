@@ -112,7 +112,7 @@ const FranqueadorPage = () => {
 
             <h4 className="text-xl font-semibold mb-3 text-gray-800 mt-8">Criando novos atributos</h4>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Ao criar novos atributos, clique no botão "<span className="font-semibold">+ Adicionar novo</span>" e siga os passos na tela, escolhendo qual tipo de campo personalizado deseja adicionar. É importante salientar que é preciso ajustar as configurações de compartilhamento para novos atributos, clicando em "<span className="font-semibold">Compartilhamento</span>" na caixa do atributo, logo em seguida "<span className="font-semibold">Adicionar perfis</span>" &gt; "<span className="font-semibold">Contas vinculadas à minha</span>" e deixar a opção "<span className="font-semibold">Visualizar</span>".
+              Caso queira criar novos atributos, clique no botão "<span className="font-semibold">+ Adicionar novo</span>" e siga os passos na tela, escolhendo qual tipo de campo personalizado deseja adicionar. É importante salientar que é preciso ajustar as configurações de compartilhamento para novos atributos, clicando em "<span className="font-semibold">Compartilhamento</span>" na caixa do atributo, logo em seguida "<span className="font-semibold">Adicionar perfis</span>" &gt; "<span className="font-semibold">Contas vinculadas à minha</span>" e deixar a opção "<span className="font-semibold">Visualizar</span>".
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Dessa forma os franqueados também verão em suas sessões este novo atributo/dado.
