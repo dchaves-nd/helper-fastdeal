@@ -143,7 +143,7 @@ const FranqueadorPage = () => {
               Os <span className="font-semibold">templates</span> são a base do seu conteúdo na Fastdeal. Eles são modelos (como Post para Feed, Stories, Banners etc) que a franqueadora irá disponibilizar e que podem ser personalizados para cada franquia com <span className="font-semibold">atributos dinâmicos</span>, como logo e telefone.
             </p>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-10">
+            <div className="grid grid-cols-1 gap-8 mb-10">
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
                 <CardHeader className="pb-4">
                   <CardTitle className="text-xl font-semibold text-gray-800">1. Navegando na Seção de Templates</CardTitle>
