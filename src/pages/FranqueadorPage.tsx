@@ -95,15 +95,14 @@ const FranqueadorPage = () => {
               <Settings className="h-6 w-6 mr-3 text-purple-600" /> Configurações Iniciais
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Para personalizar suas mídias e garantir que sua franquia esteja sempre atualizada,
-              siga estes passos para configurar seu <span className="font-semibold">logo e dados de contato</span>:
+              Para personalizar as mídias com os dados de cada franqueado, é preciso definir o que exatamente você quer personalizar. Pense em <span className="font-semibold">logotipo, dados de contato</span> ou outro dado que achar relevante. Siga os passos para definir um atributo personalizado.
             </p>
-            <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 pl-4">
-              <li>Acesse a seção "<span className="font-semibold">Meu Perfil</span>" ou "<span className="font-semibold">Configurações</span>".</li>
-              <li>Faça o <span className="font-semibold">upload do seu logo</span> em alta resolução.</li>
-              <li>Preencha seus <span className="font-semibold">dados de contato</span>, como telefone, endereço e redes sociais.</li>
-              <li><span className="font-semibold">Salve as alterações</span>.</li>
-            </ul>
+            <ol className="list-decimal list-inside space-y-3 text-lg text-gray-700 mb-8 pl-4">
+              <li>Faça login e no menu lateral acesse "<span className="font-semibold">Configurações</span>" &gt; "<span className="font-semibold">Arquivos conteúdos de mídia</span>" &gt; "<span className="font-semibold">Atributos dinâmicos</span>". Por padrão, deixamos <span className="font-semibold">Logo principal</span> e <span className="font-semibold">Telefone da unidade</span>. Mas se quiser adicionar mais atributos, clique no botão "<span className="font-semibold">+ Adicionar novo</span>" e siga os passos na tela.</li>
+            </ol>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Ambos atributos padrão estão compartilhados com as unidades vinculadas à sua franquia e nós já instruímos cada franqueador a enviar estes dados na plataforma, pois, sem eles, a Fastdeal não conseguirá personalizar as mídias devido à pendência de envios.
+            </p>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
               <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de Configurações Iniciais" className="w-full h-48 object-cover rounded-md mt-2" />
             </div>
