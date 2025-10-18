@@ -51,7 +51,7 @@ const FranqueadorPage = () => {
   return (
     <div className="min-h-screen bg-gradient-fastdeal-bg font-verdana">
       <SidebarNav activeSection={activeSection} sidebarTitle="Gerenciando Mídias para suas Franquias" />
-      <main className="ml-64">
+      <main className="md:ml-64">
         <div ref={contentRef} className="p-8 space-y-12 max-w-4xl mx-auto"> {/* Aumentado o espaço entre seções */}
           {/* Bem-vindo à Fastdeal! */}
           <section id="bem-vindo" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
