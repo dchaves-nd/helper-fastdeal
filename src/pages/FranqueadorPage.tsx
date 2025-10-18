@@ -56,7 +56,7 @@ const FranqueadorPage = () => {
           {/* Bem-vindo à Fastdeal! */}
           <section id="bem-vindo" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
-              Bem-vindo à <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Fastdeal!</span>
+              Franqueador, bem-vindo à <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text inline-block">Fastdeal!</span>
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               A Fastdeal cria e publica conteúdos no Instagram, Facebook e WhatsApp para a sua franquia,
