@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
 import { MadeWithDyad } from '@/components/made-with-dyad';
+import { Button } from '@/components/ui/button'; // Importar o componente Button
 
 // Lista plana de IDs para o IntersectionObserver
 const sectionIds = [
@@ -68,14 +69,22 @@ const FranqueadorPage = () => {
           </section>
 
           <section id="acesso-plataforma" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-800">Acesso à plataforma</h3>
-            <p className="text-gray-700">
-              Você receberá suas credenciais de acesso (usuário e senha) por e-mail.
-              Utilize-as para fazer login na plataforma Fastdeal e começar a impulsionar sua franquia!
+            <h3 className="text-2xl font-semibold mb-4 text-gray-800">Gerenciando Mídias para suas Franquias</h3>
+            <p className="text-gray-700 mb-4">
+              Você receberá suas credenciais de acesso (usuário e senha) pelo e-mail cadastrado na compra.
+              Utilize-as para fazer login na plataforma Fastdeal.
             </p>
-            <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de Acesso à Plataforma" className="w-full h-48 object-cover rounded-md mt-2" />
-            </div>
+            <a href="https://netdeal.com.br/cms/#login" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-gradient-fastdeal text-white px-6 py-3 rounded-md text-lg font-semibold hover:opacity-90 transition-opacity">
+                Acessar plataforma
+              </Button>
+            </a>
+
+            <h4 className="text-xl font-semibold mt-8 mb-2 text-gray-800">Recuperação de Senha</h4>
+            <p className="text-gray-700">
+              Caso esqueça sua senha, utilize a opção "Esqueci minha senha" na tela de login.
+              Um link para redefinição será enviado ao seu e-mail cadastrado.
+            </p>
           </section>
 
           <section id="configuracoes-iniciais" className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
