@@ -17,8 +17,8 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navigate to="/franqueado" replace />} /> {/* Redireciona a raiz para /franqueado */}
-          <Route path="/franqueado" element={<FranqueadoPage />} /> {/* Rota da página de franqueado */}
+          <Route path="/" element={<Navigate to="/franqueador" replace />} /> {/* Redireciona a raiz para /franqueador */}
+          {/* <Route path="/franqueado" element={<FranqueadoPage />} /> */} {/* Rota da página de franqueado (desativada) */}
           <Route path="/franqueador" element={<FranqueadorPage />} /> {/* Rota da nova página de franqueador */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
