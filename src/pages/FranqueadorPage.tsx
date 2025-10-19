@@ -198,17 +198,23 @@ const FranqueadorPage = () => {
                   <CardTitle className="text-xl font-semibold text-gray-800">2. Adicionando Atributos Dinâmicos</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ul className="list-disc list-inside space-y-3 text-base text-gray-600 mb-4 pl-4 leading-relaxed"> {/* Cor do texto ajustada */}
-                    <li>a. Adicione um novo item no menu esquerdo e localize a opção "<span className="font-semibold">Tipo</span>" para trocar para "<span className="font-semibold">Atributo dinâmico</span>".</li>
-                    <li>b. Em "<span className="font-semibold">Atributo</span>", defina o tipo de atributo que deseja incluir na mídia, como:
-                      <ul className="list-disc list-inside ml-6 mt-2 space-y-2">
-                        <li><span className="font-mono font-semibold">[LOGO_FRANQUIA]</span>: Será substituído pelo logo individual de cada franquia quando a Fastdeal distribuir.</li>
-                        <li><span className="font-mono font-semibold">[TELEFONE_FRANQUIA]</span>: Será substituído pelo telefone de contato da franquia.</li>
-                      </ul>
-                    </li>
-                    <li>c. Defina uma imagem ou texto de exemplo para visualizar suas edições. Edite as propriedades como largura máxima e posição na mídia para posicionar corretamente o dado. <span className="font-semibold">Salve o conteúdo</span> para seguir adiante.</li>
-                  </ul>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de adição de atributos dinâmicos" className="w-full h-auto object-contain rounded-md" />
+                  <div className="flex flex-col md:flex-row items-center gap-6">
+                    <ul className="list-disc list-inside space-y-3 text-base text-gray-600 pl-4 leading-relaxed md:w-1/2"> {/* Cor do texto ajustada */}
+                      <li>a. Adicione um novo item no menu esquerdo e localize a opção "<strong>Tipo</strong>" para trocar para "<strong>Atributo dinâmico</strong>".</li>
+                      <li>b. Em "<strong>Atributo</strong>", defina o tipo de atributo que deseja incluir na mídia, como:
+                        <ul className="list-disc list-inside ml-6 mt-2 space-y-2">
+                          <li><span className="font-mono font-semibold">[LOGO_FRANQUIA]</span>: Será substituído pelo logo individual de cada franquia quando a Fastdeal distribuir.</li>
+                          <li><span className="font-mono font-semibold">[TELEFONE_FRANQUIA]</span>: Será substituído pelo telefone de contato da franquia.</li>
+                        </ul>
+                      </li>
+                      <li>c. Defina uma imagem ou texto de exemplo para visualizar suas edições. Edite as propriedades como largura máxima e posição na mídia para posicionar corretamente o dado. <span className="font-semibold">Salve o conteúdo</span> para seguir adiante.</li>
+                    </ul>
+                    <img 
+                      src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760826893353_captura_de_tela_2025_10_18_223420.png" 
+                      alt="Imagem de adição de atributos dinâmicos" 
+                      className="w-full md:w-1/2 h-auto object-contain rounded-md mt-4 md:mt-0" 
+                    />
+                  </div>
                 </CardContent>
               </Card>
             </div>
