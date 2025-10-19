@@ -188,7 +188,7 @@ const FranqueadorPage = () => {
                   </p>
                   <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760801480678_captura_de_tela_2025_10_18_153108.png" alt="Imagem de upload de elementos visuais" className="w-full h-auto object-contain rounded-md mb-6" />
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
-                    Defina uma legenda ou hashtag vinculado ao modelo preenchendo o campo "<span className="font-semibold">Descrição</span>".
+                    Defina uma legenda e/ou hashtag para a mídia preenchendo o campo "<strong>Descrição e Hashtag</strong>". Os franqueados poderão ver as legendas ao abrir a mídia.
                   </p>
                   <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760826447708_captura_de_tela_2025_10_18_222712.png" alt="Imagem de definição de legenda ou hashtag" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
