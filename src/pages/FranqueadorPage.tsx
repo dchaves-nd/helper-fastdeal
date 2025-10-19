@@ -226,7 +226,7 @@ const FranqueadorPage = () => {
               Após criar seus templates, o próximo passo é <span className="font-semibold">compartilhá-los com suas franquias</span>. Para isso, no mesmo modal "Content Media" onde você criou os modelos, selecione "<span className="font-semibold">Compartilhamento</span>" &gt; "<span className="font-semibold">Adicionar perfis</span>" &gt; "<span className="font-semibold">Contas vinculadas à minha</span>". Altere para "<span className="font-semibold">Visualizar</span>" e <span className="font-semibold">Salve os ajustes</span>.
             </p>
             <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-md text-sm text-gray-600">
-              <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de compartilhamento de modelos" className="w-full h-auto object-contain rounded-md mt-2" />
+              <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760827415634_captura_de_tela_2025_10_18_224314.png" alt="Imagem de compartilhamento de modelos" className="w-full h-auto object-contain rounded-md mt-2" />
             </div>
           </section>
 
