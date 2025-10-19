@@ -182,7 +182,9 @@ const FranqueadorPage = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
-                    Ao abrir o Editor, localize no painel à direita o campo "Tipo" e altere para "IMAGEM". Assim você poderá fazer upload de sua arte para preencher o quadro branco. Nota: É importante que as dimensões da imagem esteja nas mesmas proporções que o modelo escolhido (ex. Instagram Post Square tem 1080px por 1080px).
+                    Ao abrir o Editor, localize no painel à direita o campo "<strong>Tipo</strong>" e altere para "<strong>IMAGEM</strong>". Assim você poderá fazer upload de sua arte para preencher o quadro branco.
+                    <br />
+                    Nota: É importante que as dimensões da imagem estejam nas mesmas proporções que o modelo escolhido (ex. Instagram Post Square tem 1080px por 1080px).
                   </p>
                   <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760801480678_captura_de_tela_2025_10_18_153108.png" alt="Imagem de upload de elementos visuais" className="w-full h-auto object-contain rounded-md mb-6" />
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
