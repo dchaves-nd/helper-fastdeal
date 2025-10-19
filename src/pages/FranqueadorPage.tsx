@@ -190,7 +190,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Defina uma legenda ou hashtag vinculado ao modelo preenchendo o campo "<span className="font-semibold">Descrição</span>".
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de definição de legenda ou hashtag" className="w-full h-auto object-contain rounded-md" />
+                  <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760826447708_captura_de_tela_2025_10_18_222712.png" alt="Imagem de definição de legenda ou hashtag" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
