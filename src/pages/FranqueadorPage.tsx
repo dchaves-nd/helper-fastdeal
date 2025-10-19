@@ -286,7 +286,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     Se estiver tudo ok, clique em "<span className="font-semibold">Gerar mídias</span>" e verifique o status no <span className="font-semibold">Histórico de Processos</span>.
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de resumo da distribuição" className="w-full h-auto object-contain rounded-md" />
+                  <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760827961349_captura_de_tela_2025_10_18_225231.png" alt="Imagem de resumo da distribuição" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
             </div>
