@@ -252,7 +252,7 @@ const FranqueadorPage = () => {
                   <p className="text-base text-gray-600 mb-4 leading-relaxed"> {/* Cor do texto ajustada */}
                     No menu "<span className="font-semibold">Campanhas e Ações</span>" clique na aba "<span className="font-semibold">Ações</span>" e clique no botão "<span className="font-semibold">+ Nova ação</span>". Selecione o tipo de ação "<span className="font-semibold">Content Media</span>" &gt; "<span className="font-semibold">Selecionar template já existente</span>" e na lista que aparecer, selecione o nosso template recém-criado e clique em <span className="font-semibold">Continuar</span>.
                   </p>
-                  <img src="https://s3.amazonaws.com/producao.spayce.com.br/1756167781062_grid1img.png" alt="Imagem de criação de ação de distribuição" className="w-full h-auto object-contain rounded-md" />
+                  <img src="https://www.netdeal.com.br/api/images/producao.spayce.com.br/1760827600982_captura_de_tela_2025_10_18_224629.png" alt="Imagem de criação de ação de distribuição" className="w-full h-auto object-contain rounded-md" />
                 </CardContent>
               </Card>
               <Card className="rounded-lg shadow-sm border border-gray-200 p-6 bg-gradient-card-light"> {/* Aplicado o novo gradiente */}
